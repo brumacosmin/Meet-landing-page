@@ -1,0 +1,15 @@
+:root {
+  --aqua-blue: rgb(77, 150, 168);
+  --lavender: rgb(133, 95, 177);
+  --main-headers-color: rgb(40, 40, 61);
+  --main-paragraphs-color: rgb(135, 135, 157);
+  --white: rgb(250, 250, 250);
+  --btn-active-cyan: rgb(143, 227, 249);
+  --btn-active-purple: rgb(217, 148, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
