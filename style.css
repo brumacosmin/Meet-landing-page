@@ -4,12 +4,120 @@
   --main-headers-color: rgb(40, 40, 61);
   --main-paragraphs-color: rgb(135, 135, 157);
   --white: rgb(250, 250, 250);
-  --btn-active-cyan: rgb(143, 227, 249);
-  --btn-active-purple: rgb(217, 148, 255);
+  --btn-span-cyan: rgb(143, 227, 249);
+  --btn-purple: rgb(217, 148, 255);
+  --btn-active-cyan: rgb(113, 192, 212);
+  --btn-active-purple: rgb(177, 139, 221);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  color: var(--main-headers-color);
+}
+
+.btn {
+  border: none;
+  font-weight: 900;
+  color: var(--white);
+  padding: 0.9rem 2rem;
+  border-radius: 2rem;
+}
+
+/*LOGO SECTION*/
+.logo {
+  text-align: center;
+  padding: 3rem;
+}
+
+.image-logo {
+  width: 6rem;
+}
+
+/*HERO SECTION*/
+
+.hero-section {
+  display: flex;
+  gap: 6rem;
+  height: 20.7rem;
+  text-align: center;
+  margin-bottom: 15rem;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+.hero-paragraph {
+  color: var(--main-paragraphs-color);
+  margin: 1.5rem 0 2.2rem 0;
+}
+
+.btn-download {
+  background-color: var(--aqua-blue);
+  margin-right: 1rem;
+}
+
+.btn-download:hover {
+  cursor: pointer;
+  background-color: var(--btn-active-cyan);
+}
+
+.btn-download span {
+  color: var(--btn-span-cyan);
+}
+
+.btn-info {
+  background-color: var(--lavender);
+}
+
+.btn-info:hover {
+  cursor: pointer;
+  background-color: var(--btn-active-purple);
+}
+
+.text-and-buttons {
+  order: 1;
+  align-self: flex-end;
+}
+
+.img-right {
+  order: 2;
+  margin-right: -2rem;
+  align-self: flex-end;
+}
+
+.img-left {
+  margin-left: -2rem;
+  align-self: flex-start;
+}
+
+/*TILES SECTION*/
+
+/*FOOTER SECTION*/
+
+.btn-footer {
+  background-color: var(--lavender);
+}
+
+.btn-footer span {
+  color: var(--btn-purple);
+}
+
+.btn-footer:hover {
+  cursor: pointer;
+  background-color: var(--btn-active-purple);
 }
