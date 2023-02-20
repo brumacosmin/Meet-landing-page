@@ -107,6 +107,18 @@ h2 {
 
 /*TILES SECTION*/
 
+.tiles {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tile-image {
+  width: 16rem;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
 /*FOOTER SECTION*/
 
 .btn-footer {
