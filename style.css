@@ -64,6 +64,7 @@ h2 {
 .hero-paragraph {
   color: var(--main-paragraphs-color);
   margin: 1.5rem 0 2.2rem 0;
+  line-height: 1.5;
 }
 
 .btn-download {
@@ -111,12 +112,45 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 4rem;
 }
 
 .tile-image {
   width: 16rem;
   height: auto;
   border-radius: 0.5rem;
+}
+
+/*PRODUCT DESCRIPTION SECTION*/
+.product-description-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.product-description-wrapper .product-description {
+  max-width: 35%;
+}
+
+.prod-description-paragraph-colored {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--aqua-blue);
+  letter-spacing: 0.25rem;
+}
+
+.prod-description-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 1.2rem;
+  margin-bottom: 2.1rem;
+  line-height: 1;
+}
+
+.prod-description-paragraph {
+  color: var(--main-paragraphs-color);
+  line-height: 1.5;
 }
 
 /*FOOTER SECTION*/
